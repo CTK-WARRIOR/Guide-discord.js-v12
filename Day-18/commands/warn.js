@@ -26,7 +26,7 @@ module.exports = {
       return message.channel.send("You can not warn yourself")
     }
     
-    if(message.author.id === message.guild.owner.id) {
+    if(user.id === message.guild.owner.id) {
       return message.channel.send("You jerk, how you can warn server owner -_-")
     }
     
